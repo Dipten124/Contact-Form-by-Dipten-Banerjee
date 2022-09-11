@@ -4,5 +4,5 @@ Content-Type: application/json
 {
     "to":"mbnrj123@gmail.com",
      "subject":"Test Email",
-      "message":"Khanki Magi"
+      "message":"Welcome"
 }
