@@ -12,12 +12,12 @@ app.post('/', (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'mbnrj123@gmail.com',
-      pass: 'cflflaimcuyprjxj' // naturally, replace both with your real credentials or an application-specific password
+      user: 'npmstart123@gmail.com',
+      pass: 'uqvzvphkfluhjuvh' // naturally, replace both with your real credentials or an application-specific password
     }
   });
   const mailOptions = {
-    from: 'modi@gmail.com',
+    from: 'npmstart123@gmail.com',//Change accordingly
     to: req.body.to,
     subject: req.body.subject,
     text: 'Will Get Back To You Soon',

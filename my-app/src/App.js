@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Mailer from './components/mailer';
-import Button from 'react-bootstrap/Button'
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
