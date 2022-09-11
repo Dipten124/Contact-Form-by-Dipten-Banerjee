@@ -14,7 +14,7 @@ const handlesubmit = (e,name,email,message,number) => {
         method:"POST",
         headers:{'Content-Type':'application/json'},
         body :JSON.stringify({
-            "to":"mbnrj123@gmail.com",
+            "to":"info@redpositive.in",
              "subject":"Thank You for Contacting Us",
               "message":mailbody
         })
